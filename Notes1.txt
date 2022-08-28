@@ -1,0 +1,37 @@
+Git Fundamentals:
+Remote Repository: A repository on remote Git Service Provider site(everyone can see the chnages)
+Local Repo: Clone copies of rem repo on programmer machine or site(our own unique copy)
+Communication btw both is made using repo urls
+
+git commands:
+1) git help <command> or git <command> --help
+eg: git help commit : elements of git(description)
+
+2) Self User(create new repo)
+git init
+git remote add <remote-Lbel/Name> <respository url>
+
+   Clone
+git clone<repository url>
+
+3) Add file from working directory to staging area(tracked file)
+git add <file name(s)>
+
+4) commit files:
+git commit -m "<message>"
+eg: git commit -m "Adding basic json functionality to repo"
+
+5) I dentify a commit:
+git log (40 digit code)
+git log -oneline (6 digit code)
+
+6) push 
+git push origin main
+
+7) change url of rep
+git remote set-url origin <new url>
+
+8)branching:
+git branch
+
+
